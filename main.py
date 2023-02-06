@@ -19,12 +19,21 @@ print("we can print a list of items: dog", "cat", "mouse", "elephant", "moose", 
       end="! just one exclamation for moose\n")
 # \n means the newline character, so it instructs the print to start from a newline afterwards
 print("This is the end for the", "print", "examples", end=". See you next time!")
-
-
+print("hi"+"joe")
+print(2+3*5**2)
 # Also check out the readme.md file :)
+print(id(7))
+print(id(7))
+print(id(8))
+print(id(9)- id(8))
+print(id(9)- id(7))
 
+a = 7 *"ABC"
+print(type(a), a)
 
-
+a= [1,2,3,4]
+a[0] = 200
+print(a)
 
 
 
